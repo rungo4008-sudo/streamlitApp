@@ -132,9 +132,6 @@ st.markdown("""
 </style>
 
 <div style="text-align:center;">
-    <a class="icon-btn" href="https://github.com/rungo4008-sudo" target="_blank">
-        <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png"/>
-    </a>
     <a class="icon-btn" href="https://discord.com/users/695577291496882186" target="_blank">
         <img src="https://cdn-icons-png.flaticon.com/512/2111/2111370.png"/>
     </a>
@@ -143,6 +140,7 @@ st.markdown("""
     </a>
 </div>
 """, unsafe_allow_html=True)
+
 
 
 
