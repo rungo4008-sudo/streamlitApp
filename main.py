@@ -76,12 +76,49 @@ st.markdown("""
 
 st.title("Welcome! 👨‍💻")
 st.write("Hi my name is **rungo** I'm a passionate programmer with a broad interest in technology. I enjoy exploring different areas without limiting myself to a single field 🚀")
-st.subheader("General Skills")
-st.write("""
-- Python 🐍  
-- Java ☕  
-- Problem Solving 🧩  
-""")
+import streamlit as st
+
+import streamlit as st
+st.subheader("General Skills ")
+st.markdown("""
+<style>
+.skill {
+    margin: 10px 0;
+}
+.bar {
+    background: #E1D9D1;  
+    border-radius: 10px;
+    overflow: hidden;
+    height: 22px;
+}
+.fill {
+    background: linear-gradient(90deg, #013220, #9bbf9c); 
+    height: 100%;
+    text-align: right;
+    padding-right: 6px;
+    color: #000000;
+    font-weight: 500;
+    font-size: 12px;
+}
+</style>
+
+<div class="skill">
+  <p>Python</p>
+  <div class="bar"><div class="fill" style="width:55%;">55%</div></div>
+</div>
+
+<div class="skill">
+  <p>Java</p>
+  <div class="bar"><div class="fill" style="width:60%;">60%</div></div>
+</div>
+
+<div class="skill">
+  <p>Problem Solving</p>
+  <div class="bar"><div class="fill" style="width:85%;">85%</div></div>
+</div>
+""", unsafe_allow_html=True)
+
+
 st.subheader("💻 Digital Forensics & Cybersecurity Skills")
 
 st.write("""
@@ -94,6 +131,8 @@ st.write("""
 st.subheader("🔒 Cybersecurity & Programming Experiments")
 
 st.write("""
+- **Screen Logger (Educational)** – Learned how to capture periodic screenshots and organize them into folders. For learning purposes only.
+
 - **Keylogger Simulation (Educational)** – Learned how keyboard events are handled in Python. 
   For learning purposes only.
 
